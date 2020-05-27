@@ -1,4 +1,4 @@
-###Contents:
+### Contents:
 * Python notebook for pre-processing of the data - "Data Pre-Proccesing.ipynb"
 * Data directory - containing the original corrupted data file. It is also the directory of the processed data file
 * Java source code - Main class + helper classes
@@ -7,7 +7,7 @@
     * "data/targets.csv" is the "clean" file after running the notebook
     * "output/targets_groups.txt" is the output file containing the groups of similar entries
 
-###How To:
+### How To:
 * If does'nt exist, create a directory named "data" in the same directory level as the python notebook
 * Run python notebook
 * Run the code:
@@ -29,7 +29,7 @@
                 -v <path/to/input/directory>:/output 
                  saartk/medtask:v1`
 
-##Assumptions:
+## Assumptions:
 * The data contains duplicate entries (i.e date,time and action are all identical) - duplicates will remain in the "clean" file
 * The output file will not include duplicates in its groups
 * Entries without non-duplicate similar sentences will not appear in the output file
